@@ -51,9 +51,9 @@
      
 
       // Push to "data"
-      array_push($hotels_arr, $hotel_item);
+      //array_push($hotels_arr,$hotel_item);
       
-      // array_push($posts_arr['data'], $post_item);
+      array_push($hotels_arr['Hotels'], $hotel_item);
     }
 
     // Turn to JSON & output
@@ -87,8 +87,8 @@
 
       // Push to "data"
      
-      array_push($images_arr, $image_item);
-      // array_push($posts_arr['data'], $post_item);
+      //array_push($images_arr,$image_item);
+      array_push($images_arr['Images'], $image_item);
     }
 
     // Turn to JSON & output
