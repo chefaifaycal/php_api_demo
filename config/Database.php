@@ -1,10 +1,10 @@
 <?php
     class Database {
         // DB Params
-        private $host = 'localhost';
-        private $db_name = 'hotels_db';
-        private $username = 'root';
-        private $password = '';
+        private $host = 'lmc8ixkebgaq22lo.chr7pe7iynqr.eu-west-1.rds.amazonaws.com';
+        private $db_name = 'aszhlss0odrac2x0';
+        private $username = 'met9rvy7ggqm7gbr';
+        private $password = 'auayitj6t5kr9ttg';
         private $conn;
 
         // DB Connect
