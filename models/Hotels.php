@@ -25,7 +25,7 @@
       // Get Hotels
     public function read() {
         // Create query
-        $query = 'SELECT *  FROM hotels, images 
+        $query = 'SELECT *  FROM hotels
                                   ORDER BY id ' ;
 
         // Prepare statement

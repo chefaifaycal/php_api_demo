@@ -45,9 +45,7 @@
         'telephone' => $telephone,
         'email' => $email,
         'reseaux sociaux' => $reseaux_sociaux,
-        'id image' => $id_img,
-        'id hotel' => $id_hotel,
-        'url image' => $url
+        
 
       );
 
