@@ -5,7 +5,7 @@
 
   include_once '../../config/Database.php';
   include_once '../../models/Hotels.php';
-  include_once '../../models/Images.php';
+
 
   // Instantiate DB & connect
   $database = new Database();
@@ -13,17 +13,17 @@
 
    // Instantiate Hotels object
    $hotel = new Hotels($db);
-   $image = new Images($db);
+   
   
 
     // Blog post query
   $result = $hotel->read();
-  $result1 = $image->read();
+  
   
 
   // Get row count
   $num = $result->rowCount();
-  $num1 = $result1->rowCount();
+  
   
   
 
