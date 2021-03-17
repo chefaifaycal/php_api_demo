@@ -2,7 +2,7 @@
   class Hotels {
     // DB stuff
     private $conn;
-    private $table = 'hotels';
+    
 
     // Hotel Properties
     public $id;
@@ -12,6 +12,10 @@
     public $telephone;
     public $email;
     public $reseaux_sociaux;
+    public $id_img;
+    public $id_hotel;
+    public $url;
+
 
     // Constructor with DB
     public function __construct($db) {
@@ -21,7 +25,7 @@
       // Get Hotels
     public function read() {
         // Create query
-        $query = 'SELECT *  FROM ' . $this->table . ' 
+        $query = 'SELECT *  FROM hotels, images 
                                   ORDER BY id ' ;
 
         // Prepare statement
