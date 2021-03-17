@@ -25,11 +25,14 @@
   $num = $result->rowCount();
   $num1 = $result1->rowCount();
   
+  
+
 
   // Check if any hotels 
   if($num > 0) {
     // Hotel array
     $hotels_arr = array();
+    
   
     $hotels_arr['Hotels'] = array();
 
@@ -45,6 +48,10 @@
         'telephone' => $telephone,
         'email' => $email,
         'reseaux sociaux' => $reseaux_sociaux,
+        'url1' => $url1,
+        'url2' => $url2,
+        'url3' => $url3,
+        'url4' => $url4
         
 
       );
