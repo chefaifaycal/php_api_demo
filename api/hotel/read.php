@@ -69,6 +69,7 @@
 
 
   // Check if any images 
+  /*
   if($num1 > 0) {
     // Hotel array
     
@@ -99,4 +100,4 @@
     echo json_encode(
       array('message' => 'No Images Found')
     );
-  }
+  }*/
