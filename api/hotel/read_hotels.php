@@ -45,14 +45,15 @@
         'nom' => $nom,
         'description' => $description,
         'adresse' => $adresse,
-        'telephone' => $telephone,
         'email' => $email,
         'reseaux sociaux' => $reseaux_sociaux,
         'url1' => $url1,
         'url2' => $url2,
         'url3' => $url3,
-        'url4' => $url4
-        
+        'url4' => $url4,
+        'telephone' => $telephone,
+        'longitude' => $longitude,
+        'latitude' => $latitude
 
       );
 
