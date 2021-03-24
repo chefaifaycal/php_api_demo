@@ -46,7 +46,7 @@
         'description' => $description,
         'adresse' => $adresse,
         'email' => $email,
-        'reseaux sociaux' => $reseaux_sociaux,
+        'reseaux_sociaux' => $reseaux_sociaux,
         'url1' => $url1,
         'url2' => $url2,
         'url3' => $url3,
