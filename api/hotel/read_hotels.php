@@ -52,8 +52,8 @@
         'url3' => $url3,
         'url4' => $url4,
         'telephone' => $telephone,
-        'longitude' => $longitude,
-        'latitude' => $latitude
+        latitude => $latitude,
+        longitude => $longitude
 
       );
 
